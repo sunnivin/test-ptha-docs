@@ -1,0 +1,61 @@
+# Project information
+site_name: Local PTHA documentation
+# site_url: https://dtgeoeu-wp6-tsunamis.github.io/dt-geo-wp6-docs/
+# site_url: https://gitlab.rm.ingv.it/dt-geo/tsunami-digital-twin-docs
+# site_author: 
+site_description: >-
+  Instructions and documentation for the local-PTHA workflow
+ 
+# Repository
+repo_name: Global-Tsunami-Model/Local-PTHA-Documentation
+repo_url: https://github.com/Global-Tsunami-Model/Local-PTHA-Documentation
+theme: 
+  #name: material
+  name: readthedocs
+  logo: images/logoGTM.png
+  favicon: images/logoGTM.png
+  user_color_mode_toggle: true
+  palette:
+      primary: blue
+      accent: deep orange
+  #custom_dir: overrides
+  features:
+    - search.suggest    # display the likeliest completion for the last word
+    - search.highlight  # highlight all occurrences
+    - search.share      # show a share button
+    - navigation.footer
+    - navigation.indexes
+    - content.code.copy
+    - content.code.annotate
+    - announce.dismiss
+    - header.autohide
+extra_css:
+  - stylesheets/extra.css
+plugins:
+    - search
+    - awesome-pages
+markdown_extensions:
+  - footnotes
+  - admonition
+  - mdx_math
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - attr_list
+  - def_list
+  - md_in_html
+  - tables
+    #  - pymdownx.emoji:
+    #      emoji_index: !!python/name:materialx.emoji.twemoji 
+    #      emoji_generator: !!python/name:materialx.emoji.to_svg

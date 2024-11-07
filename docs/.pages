@@ -1,0 +1,7 @@
+nav:
+  - Main page: index.md
+  - Instructions: instructions
+  - Spack: spack
+  - Workflow steps: steps
+  - Background information: background
+
