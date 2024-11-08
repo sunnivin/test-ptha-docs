@@ -37,7 +37,7 @@ plugins:
 markdown_extensions:
   - footnotes
   - admonition
-  - mdx_math
+  #- mdx_math
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
