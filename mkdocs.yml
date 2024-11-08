@@ -33,7 +33,7 @@ extra_css:
   - stylesheets/extra.css
 plugins:
     - search
-    - awesome-pages
+    #- awesome-pages
 markdown_extensions:
   - footnotes
   - admonition
