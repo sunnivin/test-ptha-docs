@@ -28,8 +28,6 @@ theme:
     - content.code.annotate
     - announce.dismiss
     - header.autohide
-extra_css:
-  - stylesheets/extra.css
 plugins:
     - search
     #- awesome-pages
@@ -67,4 +65,5 @@ extra_javascript:
   - https://unpkg.com/katex@0/dist/katex.min.js
   - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
 extra_css:
+  - stylesheets/extra.css
   - https://unpkg.com/katex@0/dist/katex.min.css
