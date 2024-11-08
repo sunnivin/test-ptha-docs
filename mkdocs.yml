@@ -1,14 +1,13 @@
 # Project information
 site_name: Local PTHA documentation
-# site_url: https://dtgeoeu-wp6-tsunamis.github.io/dt-geo-wp6-docs/
-# site_url: https://gitlab.rm.ingv.it/dt-geo/tsunami-digital-twin-docs
+site_url: https://manuelavolpe.github.io/local-PTHA-docs/
 # site_author: 
 site_description: >-
   Instructions and documentation for the local-PTHA workflow
  
 # Repository
-repo_name: Global-Tsunami-Model/Local-PTHA-Documentation
-repo_url: https://github.com/Global-Tsunami-Model/Local-PTHA-Documentation
+repo_name: manuelavolpe/local-PTHA-docs
+repo_url: https://github.com/manuelavolpe/local-PTHA-docs
 theme: 
   #name: material
   name: readthedocs
@@ -33,7 +32,7 @@ extra_css:
   - stylesheets/extra.css
 plugins:
     - search
-    #- awesome-pages
+    - awesome-pages
 markdown_extensions:
   - footnotes
   - admonition
@@ -51,7 +50,9 @@ markdown_extensions:
   - pymdownx.tilde
   - pymdownx.details
   - pymdownx.tabbed:
-      alternate_style: true 
+      alternate_style: true
+  - pymdownx.arithmatex:
+      generic: true 
   - attr_list
   - def_list
   - md_in_html
@@ -59,3 +60,11 @@ markdown_extensions:
     #  - pymdownx.emoji:
     #      emoji_index: !!python/name:materialx.emoji.twemoji 
     #      emoji_generator: !!python/name:materialx.emoji.to_svg
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+  - javascripts/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+extra_css:
+  - https://unpkg.com/katex@0/dist/katex.min.css
